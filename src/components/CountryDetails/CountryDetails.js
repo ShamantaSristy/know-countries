@@ -13,7 +13,7 @@ const CountryDetails = () => {
         fetch(`https://restcountries.eu/rest/v2/alpha/${alpha2Code}`)
             .then((response) => response.json())
             .then(data => setCountryDetails(data))
-    }, []);
+    }, [alpha2Code]);
     return (
         <div className="countryContainer">
                 <Figure>
