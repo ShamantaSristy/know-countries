@@ -1,0 +1,11 @@
+.countryContainer{
+    height:500px;
+    width:270px;
+    border:1px solid black;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    margin-top:50px;
+}
